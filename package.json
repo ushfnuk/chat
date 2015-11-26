@@ -1,0 +1,29 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Simple chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ushfnuk/chat.git"
+  },
+  "keywords": [
+    "chat",
+    "nodejs",
+    "vanilla"
+  ],
+  "author": "Apfelsinchen Ritter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ushfnuk/chat/issues"
+  },
+  "homepage": "https://github.com/ushfnuk/chat#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "ws": "^0.8.0"
+  }
+}
